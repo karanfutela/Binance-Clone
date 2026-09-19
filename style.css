@@ -318,7 +318,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-left:780px;
+  margin-left:250px;
+}
+
+.hero{
+  display: flex;
+  gap:20px;
+  align-items:flex-start;
 }
 
 /* ===== Market Card ===== */
@@ -395,11 +401,19 @@ a{
   margin-right:140px;
 }
 
+.coin-list .coin-row .price:hover{
+  color: #848e9c;
+}
+
 .coin-info {
   display: flex;
   align-items: center;
   gap: 12px;
   flex: 1;
+}
+
+.symbol:hover{
+  color: #848e9c;
 }
 
 .coin-icon {
@@ -492,4 +506,134 @@ a{
 
 .news-list a:hover {
   color: #848e9c;
+}
+
+.hero-left {
+  max-width: 560px;
+  padding: 60px 40px;
+}
+
+.hero-number {
+  color: #f0b90b;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.hero-heading {
+  color: #eaecef;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+/* Stats row */
+.stats-row {
+  display: flex;
+  gap: 60px;
+  margin: 32px 0 40px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.laurel {
+  font-size: 20px;
+  transform: scaleX(-1);
+}
+
+.laurel.right {
+  transform: scaleX(1);
+}
+
+.stat-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-value {
+  color: #f0b90b;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.stat-label {
+  color: #f0b90b;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Signup row */
+.signup-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  flex: 1;
+  background-color: #1e2329;
+  border: 1px solid #474d57;
+  border-radius: 6px;
+  padding: 0 16px;
+  color: #eaecef;
+  font-size: 14px;
+  height: 52px;
+  outline: none;
+}
+
+.email-input::placeholder {
+  color: #848e9c;
+}
+
+.email-input:focus {
+  border-color: #f0b90b;
+}
+
+.signup-btn {
+  background-color: #f0b90b;
+  color: #1e2329;
+  border: none;
+  border-radius: 6px;
+  padding: 0 32px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.signup-btn:hover {
+  background-color: #d9a509;
+}
+
+/* Social login */
+.social-login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-btn {
+  width: 44px;
+  height: 44px;
+  background-color: #1e2329;
+  border: 1px solid #474d57;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.divider {
+  color: #474d57;
+  font-size: 20px;
+  margin: 0 4px;
 }
