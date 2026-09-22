@@ -12,7 +12,7 @@ A front-end clone of the Binance homepage, built from scratch with plain **HTML*
 
 ## 🌐 Live Demo
 
-[cool-pegasus-289aaf.netlify.app](https://cool-pegasus-289aaf.netlify.app/)
+[taupe-choux-9e86a9.netlify.app](https://taupe-choux-9e86a9.netlify.app/)
 
 ## 📄 Sections Included
 
